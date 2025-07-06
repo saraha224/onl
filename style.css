@@ -1,4 +1,59 @@
-/* = عام = */
+/* = عام = */*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: rgb(234, 247, 248);
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: auto;
+}
+.text-section h1{
+    margin-bottom: 20px;
+    line-height: 1.2;
+    color: black;
+}
+.highlight{
+    color: blue;
+    font-weight: bold;
+}
+.text-section p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.text-section button{
+    padding: 10px 20px;
+    background-color: rgb(84, 84, 255);
+    color: white;
+    border-radius: 10%;
+    border-color: transparent;
+    box-shadow: 1px 1px 3px;
+    
+}
+body{
+    background-color: rgb(193, 193, 252);
+
+}
+.contain{
+    display: flex;
+    justify-content: space-between;
+}
+.text h1{
+    color: rgb(40, 97, 255);
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+.text p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
       body {
         margin: 0;
         padding: 0;
